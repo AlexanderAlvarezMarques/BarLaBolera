@@ -29,6 +29,11 @@ section {
         font-style: oblique;
     }
 
+    p {
+        margin-left: 1rem;
+        font-weight: bold;
+    }
+
     table {
         width: 100%;
 
