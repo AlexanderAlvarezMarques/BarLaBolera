@@ -4,6 +4,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 200px;
+    margin-top: 53px;
 
     background-image: url("./../images/bolos_2.jpg");
     background-size: cover;
