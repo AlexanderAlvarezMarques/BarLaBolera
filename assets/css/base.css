@@ -35,6 +35,8 @@ body {
 .navbar {
     background-color: #00CFFF;
     font-weight: bold;
+    position: fixed;
+    top: 0;
 }
 
 .nav-item {
