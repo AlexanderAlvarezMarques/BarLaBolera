@@ -27,3 +27,16 @@ body {
 .mt-0 {
     margin-top: 0;
 }
+
+.br-0 {
+    border-right: none !important;
+}
+
+.navbar {
+    background-color: #00CFFF;
+    font-weight: bold;
+}
+
+.nav-item {
+    border-right: 1px solid;
+}
