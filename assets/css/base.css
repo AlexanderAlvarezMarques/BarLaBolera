@@ -1,0 +1,29 @@
+:root {
+    --header-font-color: #00CFFF;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    background-image: url("./../images/wood.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imperial-script-regular {
+  font-family: "Imperial Script", cursive;
+  font-weight: 600;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.mt-0 {
+    margin-top: 0;
+}

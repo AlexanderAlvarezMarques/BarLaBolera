@@ -3,31 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bar La Bolera</title>
+    <title>Bar La Bolera - Carta</title>
+
+    <!-- W3School CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+
+    <!-- BootStrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Google fonts -->
+    <!-- Neonderthaw -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Imperial+Script&family=Ms+Madi&family=Neonderthaw&display=swap" rel="stylesheet">
 </head>
 <body>
     
-    <nav>
-        <ul>
-            <li><a href="index.html">Raciones</a></li>
-            <li><a href="contact.html">Platos combinados</a></li>
-            <li><a href="gallery.html">Menu niños + Helado</a></li>
-            <li><a href="events.html">Ensaladas</a></li>
-            <li><a href="menu.html">Bocadillos</a></li>
-            <li><a href="news.html">Sándwich</a></li>
-            <li><a href="about.html">Hamburgues "La Bolera"</a></li>
-            <li><a href="services.html">Postres</a></li>
-            <li><a href="reservations.html">Bebidas</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="#raciones" class="nav-link">Raciones</a></li>
+                    <li class="nav-item"><a href="#combinados" class="nav-link">Platos combinados</a></li>
+                    <li class="nav-item"><a href="#ninos" class="nav-link">Menú niños + Helado</a></li>
+                    <li class="nav-item"><a href="#ensaladas" class="nav-link">Ensaladas</a></li>
+                    <li class="nav-item"><a href="#bocadillos" class="nav-link">Bocadillos</a></li>
+                    <li class="nav-item"><a href="#sandwich" class="nav-link">Sándwich</a></li>
+                    <li class="nav-item"><a href="#hamburguesa" class="nav-link">Hamburguesa</a></li>
+                    <li class="nav-item"><a href="#postres" class="nav-link">Postres</a></li>
+                    <li class="nav-item"><a href="#bebidas" class="nav-link">Bebidas</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <header>
-        <h1>La Bolera</h1>
+        <h1 class="imperial-script-regular">La Bolera</h1>
     </header>
 
-    <section id="raciones">
-        <h2>Raciones</h2>
-        <table>
+    <section class="mt-0" id="raciones">
+        <h2 class="w3-panel">Raciones</h2>
+        <table class="w3-table">
             <tr>
                 <td>Rabas</td>
                 <td>7.90 €</td>
@@ -48,43 +77,7 @@
                 <td>Crocantis de pollo (12 unid)</td>
                 <td>6.50 €</td>
             </tr>
-            <tr><section>
-        <h2>Raciones</h2>
-        <table>
             <tr>
-                <td>Rabas</td>
-                <td>7.90 €</td>
-            </tr>
-            <tr>
-                <td>Chopitos</td>
-                <td>8.90 €</td>
-            </tr>
-            <tr>
-                <td>Patatas</td>
-                <td>5.50 €</td>
-            </tr>
-            <tr>
-                <td>Croquetas (6 unidades)</td>
-                <td>7.00 €</td>
-            </tr>
-            <tr>
-                <td>Crocantis de pollo (12 unidades)</td>
-                <td>6.50 €</td>
-            </tr>
-            <tr>
-                <td>Nuggets (8 unidades)</td>
-                <td>7.00 €</td>
-            </tr>
-            <tr>
-                <td>Alitas (8 unidades)</td>
-                <td>7.00 €</td>
-            </tr>
-            <tr>
-                <td>Mejillones con tomate o vinagreta (12 unidades)</td>
-                <td>8.50 €</td>
-            </tr>
-        </table>
-    </section>
                 <td>Nuggets (8 unid)</td>
                 <td>7.00 €</td>
             </tr>
@@ -109,7 +102,8 @@
                 <td>13.00 €</td>
             </tr>
             <tr>
-                <td>Gundillas en tempura</td>
+                <td>Gundil
+  font-style: italic;las en tempura</td>
                 <td>7.90 €</td>
             </tr>
             <tr>
@@ -136,8 +130,8 @@
     </section>
 
     <section id="combinados">
-        <h2>Platos Combinados</h2>
-        <table>
+        <h2 class="w3-panel">Platos Combinados</h2>
+        <table class="w3-table w3-hoverable">
             <tr>
                 <td>1. Huevos fritos, jamón o bacón, 2 croquetas y patatas</td>
                 <td>12.80 €</td>
@@ -167,49 +161,13 @@
     </section>
 
     <section id="ninos">
-        <h2>Menú Niños + Helado</h2>
-        <table>
+        <h2 class="w3-panel">Menú Niños + Helado</h2>
+        <table class="w3-table w3-hoverable">
             <tr>
                 <td>1. Salchicas, patatas, huevo frito, Nuggets o alitas</td>
                 <td>10.50 €</td>
             </tr>
-            <tr><section>
-        <h2>Raciones</h2>
-        <table>
             <tr>
-                <td>Rabas</td>
-                <td>7.90 €</td>
-            </tr>
-            <tr>
-                <td>Chopitos</td>
-                <td>8.90 €</td>
-            </tr>
-            <tr>
-                <td>Patatas</td>
-                <td>5.50 €</td>
-            </tr>
-            <tr>
-                <td>Croquetas (6 unidades)</td>
-                <td>7.00 €</td>
-            </tr>
-            <tr>
-                <td>Crocantis de pollo (12 unidades)</td>
-                <td>6.50 €</td>
-            </tr>
-            <tr>
-                <td>Nuggets (8 unidades)</td>
-                <td>7.00 €</td>
-            </tr>
-            <tr>
-                <td>Alitas (8 unidades)</td>
-                <td>7.00 €</td>
-            </tr>
-            <tr>
-                <td>Mejillones con tomate o vinagreta (12 unidades)</td>
-                <td>8.50 €</td>
-            </tr>
-        </table>
-    </section>
                 <td>2. Pechuga o lomo, patatas, huevo frito, nuggets o alitas</td>
                 <td>10.50 €</td>
             </tr>
@@ -230,8 +188,8 @@
     </section>
 
     <section id="ensaladas">
-        <h2>Ensaladas</h2>
-        <table>
+        <h2 class="w3-panel">Ensaladas</h2>
+        <table class="w3-table w3-hoverable">
             <tr>
                 <td>1. Mixta</td>
                 <td>11.90 €</td>
@@ -247,7 +205,7 @@
             <tr>
                 <td>4. Ensalada templada de gulas, queso y cebolla</td>
                 <td>12.90 €</td>
-            </tr>
+            </tr>w3-table w3-hoverable
             <tr>
                 <td>5. Ensalada de pasta, txaka, jamón york, lechuga y salsa rosa</td>
                 <td>12.90 €</td>
@@ -260,8 +218,8 @@
     </section>
 
     <section id="bocadillos">
-        <h2>Bocadillos</h2>
-        <table>
+        <h2 class="w3-panel">Bocadillos</h2>
+        <table class="w3-table w3-hoverable">
             <tr>
                 <td>Bocata de jamón serrano</td>
                 <td>6.90 €</td>
@@ -306,8 +264,8 @@
     </section>
 
     <section id="sandwich">
-        <h2>Sándwich</h2>
-        <table>
+        <h2 class="w3-panel">Sándwich</h2>
+        <table class="w3-table w3-hoverable">
             <tr>
                 <td>Sándwich mixto triple (3 capas)</td>
                 <td>6.50 €</td>
@@ -328,8 +286,8 @@
     </section>
 
     <section id="hamburguesa">
-        <h2>Hamburguesa La Bolera (POLLO o TERNERA)</h2>
-        <table>
+        <h2 class="w3-panel">Hamburguesa La Bolera (POLLO o TERNERA)</h2>
+        <table class="w3-table w3-hoverable">
             <tr>
                 <td>Carne, queso, lechuga, tomate, cebolla, pepinillo, bacón y huevo + R. Patatas</td>
                 <td>11.50 €</td>
@@ -338,8 +296,8 @@
     </section>
 
     <section id="postres">
-        <h2>Postres</h2>
-        <table>
+        <h2 class="w3-panel">Postres</h2>
+        <table class="w3-table w3-hoverable">
             <tr>
                 <td>Crema catalana</td>
                 <td>5.90 €</td>
@@ -376,8 +334,8 @@
     </section>
 
     <section id="bebidas">
-        <h2>Bebidas</h2>
-        <table>
+        <h2 class="w3-panel">Bebidas</h2>
+        <table class="w3-table w3-hoverable">
             <tr>
                 <td>Agua 1.5L</td>
                 <td>2.50 €</td>
@@ -385,6 +343,10 @@
             <tr>
                 <td>Refresco</td>
                 <td>2.20 €</td>
+            </tr>
+            <tr>
+                <td>Nestea, Aquarius naranja/limón</td>
+                <td>2.50 €</td>
             </tr>
             <tr>
                 <td>Gaseosa 0.5 L</td>
@@ -440,5 +402,6 @@
             </tr>
         </table>
     </section>
+
 </body>
 </html>
